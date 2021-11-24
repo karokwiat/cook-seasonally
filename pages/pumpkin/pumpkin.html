@@ -1,0 +1,165 @@
+<h1>
+  <a href="/">COOK SEASONALLY</a>
+</h1>
+<div class="container">
+  <div class="site-container">
+    <section class="search-boxes">
+      <h2 class="text-center">Recipes</h2>
+      <nav>
+        <div>
+          <div>
+            <div class="dropdown">
+              <button class="dropbtn">Meal type</button>
+              <div class="dropdown-content">
+                <ul class="meals">
+                  <li>
+                    <input class="meal-checkbox" type="checkbox" value="Breakfast" name="breakfast"/>
+                    <label for="breakfast">breakfast</label>
+                  </li>
+                  <li>
+                    <input class="meal-checkbox" type="checkbox" value="Lunch" name="lunch" />
+                    <label for="lunch">lunch</label>
+                  </li>
+                  <li>
+                    <input class="meal-checkbox" type="checkbox" value="Dinner" name="dinner" />
+                    <label for="dinner">dinner</label>
+                  </li>
+                  <li>
+                    <input class="meal-checkbox" type="checkbox" value="Snack" name="snack" />
+                    <label for="snack">snack</label>
+                  </li>
+                  <li>
+                    <input class="meal-checkbox" type="checkbox" value="Teatime" name="teatime" />
+                    <label for="teatime">teatime</label>
+                  </li>
+                </ul>
+                <button class="filterbtn">Filter</button>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">Ingredients</button>
+              <div class="dropdown-content">
+                <ul class="ingredients">
+                  <li>
+                    <input class="ingredients-checkbox" type="checkbox" value="avocado" name="avocado" />
+                    <label for="avocado">avocado</label>
+                  </li>
+                  <li>
+                    <input class="ingredients-checkbox" type="checkbox" value="beetroot" name="beetroot" />
+                    <label for="beetroot">beetroot</label>
+                  </li>
+                  <li>
+                    <input class="ingredients-checkbox" type="checkbox" value="broccoli" name="broccoli" />
+                    <label for="broccoli">broccoli</label>
+                  </li>
+                  <li>
+                    <input class="ingredients-checkbox" type="checkbox" value="brussels" name="brussels" />
+                    <label for="brussels">brussels sprouts</label>
+                  </li>
+                  <li>
+                    <input class="ingredients-checkbox" type="checkbox" value="cabbage" name="cabbage" />
+                    <label for="cabbage">cabbage</label>
+                  </li>
+                  <li>
+                    <input class="ingredients-checkbox" type="checkbox" value="carrot" name="carrot" />
+                    <label for="carrot">carrot</label>
+                  </li>
+                  <li>
+                    <input class="ingredients-checkbox" type="checkbox" value="cauliflower" name="cauliflower" />
+                    <label for="cauliflower">cauliflower</label>
+                  </li>
+                  <li>
+                    <input class="ingredients-checkbox" type="checkbox" value="celery" name="celery" />
+                    <label for="celery">celery</label>
+                  </li>
+                  <li>
+                    <input class="ingredients-checkbox" type="checkbox" value="chickpea" name="chickpea" />
+                    <label for="chickpea">chickpea</label>
+                  </li>
+                  <li>
+                    <input class="ingredients-checkbox" type="checkbox" value="corn" name="corn" />
+                    <label for="corn">corn</label>
+                  </li>
+                  <li>
+                    <input class="ingredients-checkbox" type="checkbox" value="cucumber" name="cucumber" />
+                    <label for="cucumber">cucumber</label>
+                  </li>
+                  <li>
+                    <input class="ingredients-checkbox" type="checkbox" value="eggplant" name="eggplant" />
+                    <label for="eggplant">eggplant</label>
+                  </li>
+                  <li>
+                    <input class="ingredients-checkbox" type="checkbox" value="fennel" name="fennel" />
+                    <label for="fennel">fennel</label>
+                  </li>
+                  <li>
+                    <input class="ingredients-checkbox" type="checkbox" value="lettuce" name="lettuce" />
+                    <label for="lettuce">lettuce</label>
+                  </li>
+                  <li>
+                    <input class="ingredients-checkbox" type="checkbox" value="mushroom" name="mushroom" />
+                    <label for="mushroom">mushroom</label>
+                  </li>
+                  <li>
+                    <input class="ingredients-checkbox" type="checkbox" value="onion" name="onion" />
+                    <label for="onion">onion</label>
+                  </li>
+                  <li>
+                    <input class="ingredients-checkbox" type="checkbox" value="potato" name="potato" />
+                    <label for="potato">potato</label>
+                  </li>
+                  <li>
+                    <input class="ingredients-checkbox" type="checkbox" value="pumpkin" name="pumpkin" checked/>
+                    <label for="pumpkin">pumpkin</label>
+                  </li>
+                  <li>
+                    <input class="ingredients-checkbox" type="checkbox" value="radish" name="radish" />
+                    <label for="radish">radish</label>
+                  </li>
+                  <li>
+                    <input class="ingredients-checkbox" type="checkbox" value="spinach" name="spinach" />
+                    <label for="spinach">spinach</label>
+                  </li>
+                  <li>
+                    <input class="ingredients-checkbox" type="checkbox" value="squash" name="squash" />
+                    <label for="squash">squash</label>
+                  </li>
+                  <li>
+                    <input class="ingredients-checkbox" type="checkbox" value="tomato" name="tomato" />
+                    <label for="tomato">tomato</label>
+                  </li>
+                  <li>
+                    <input class="ingredients-checkbox" type="checkbox" value="zucchini" name="zucchini" />
+                    <label for="zucchini">zucchini</label>
+                  </li>
+                </ul>
+                <button class="filterbtn">Filter</button>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn" id="clear">X Clear all</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+  </div>
+  <div class="recipe-container">
+    <!-- 
+    <article class="article-card">
+      <figure class="article-image">
+        <img src="" alt="Meal picture."/>
+        <a href="/"></a>
+      </figure>
+      <div class="article-content">
+        <a href="#" class="card-category">Pumpkin</a>
+        <h3 class="card-title">
+          <a href="/">Recipe's title</a>
+        </h3>
+        <p class="card-excerpt">Total time to prepare: min</p>
+      </div>
+    </article>
+    -->
+  </div>
+  <a class="more">Load more</a>
+</div>

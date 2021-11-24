@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #f0f4fb;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 20px 0 20px 0;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #367248;;
+}
+
+a:hover {
+    color: #667485;
+    cursor: pointer;
+}
+
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+nav {
+    display: grid;
+    justify-content: center;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #367248;
+    color: white;
+    padding: 16px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: none;
+}
+  
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+  
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+  
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    font-size: 0.875rem;
+}
+
+.filterbtn {
+    background-color: #367248;
+    color: white;
+    padding: 16px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+.filterbtn:hover {
+    cursor: pointer;
+}
+
+#clear {
+    background-color: #3b3b3b;
+}
+
+#clear:hover {
+    cursor: pointer;
+}
+
+.site-container {
+    margin: 2rem auto;
+    max-width: calc(100% - 80px);
+}
+
+.recipe-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(265px, 300px));
+    gap: 2rem;
+}
+
+.article-image {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.article-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2px 2px 0 0;
+}
+
+.article-card {
+    background: white;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+.article-card:hover {
+    box-shadow: 0 4px 20px 0 rgba(34,68,123,0.2);
+    cursor: pointer;
+}
+
+.article-content {
+    padding: 2rem;
+}
+
+.article-content .card-category {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    color: #6b82a7;
+    display: block;
+    text-decoration: none;
+}
+
+.article-content .card-title {
+    margin: 1rem 0;
+    color: #22447b;
+}
+
+.article-content .card-excerpt {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #6b82a7;
+    margin: 0;
+}
+
+h4 {
+    text-align: center;
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* @media screen and (min-width: 768px) {
+    .site-container {
+        max-width: 608px;
+    }
+    .article-card {
+        display: grid;
+        grid-template-rows: 220px 1fr;
+    }
+}
+@media screen and (min-width: 1280px){
+    .site-container{
+        max-width: 1156px;
+    }
+} */
