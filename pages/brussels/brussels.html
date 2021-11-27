@@ -4,16 +4,6 @@
   </h1>
 </header>
 <main>
-  <section class="best-now container">
-    <div class="text-center">
-      <h2>Taste best now:</h2>
-      <dl>
-        <dt><a href="/brussels" data-navigo>Brussels sprouts</a></dt>
-        <dt><a href="/pumpkin" data-navigo>Pumpkin</a></dt>
-        <dt><a href="/zucchini" data-navigo>Zucchini</a></dt>
-      </dl>
-    </div>
-  </section>
   <section class="recipes container">
     <div class="text-center">
       <h2>Recipes</h2>
@@ -44,8 +34,10 @@
               <label for="teatime">teatime</label>
             </li>
           </ul>
-          <button class="filterbtn">Filter</button>
-          <button class="spinner"></button>
+          <div class="loading">
+            <button class="filterbtn">Filter</button>
+            <button class="spinner"></button>
+          </div>
         </div>
       </div>
       <div class="dropdown">
@@ -65,7 +57,7 @@
               <label for="broccoli">broccoli</label>
             </li>
             <li>
-              <input class="ingredients-checkbox" type="checkbox" value="brussels" name="brussels" />
+              <input class="ingredients-checkbox" type="checkbox" value="brussels" name="brussels" checked />
               <label for="brussels">brussels sprouts</label>
             </li>
             <li>
@@ -145,8 +137,10 @@
               <label for="zucchini">zucchini</label>
             </li>
           </ul>
-          <button class="filterbtn">Filter</button>
-          <button class="spinner"></button>
+          <div class="loading">
+            <button class="filterbtn">Filter</button>
+            <button class="spinner"></button>
+          </div>
         </div>
       </div>
       <div class="dropdown">

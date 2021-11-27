@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=PT+Sans&display=swap');
 
 body {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Merriweather', serif;
     font-size: 100%;
     font-size: 16px;
     line-height: 1.5;
-    background: #f0f4fb;
+    background: #f8f6f3;
+    margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -14,18 +15,21 @@ h1 {
     display: flex;
     justify-content: center;
     margin: 0;
-    padding: 20px 0 20px 0;
-    background-color: white;
+    padding: 40px 0 40px 0;
 }
 
 a {
     text-decoration: none;
-    color: #367248;;
+    color: rgb(48, 48, 48);
 }
 
 a:hover {
-    color: #667485;
+    color: #ebcc76;
     cursor: pointer;
+}
+
+h2 {
+    color: rgb(48, 48, 48);
 }
 
 .container {
@@ -41,19 +45,22 @@ section {
 
 .text-center {
     text-align: center;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
 }
 
-nav {
-    display: grid;
+.filter {
+    display: flex;
     justify-content: center;
 }
 
 /* Dropdown Button */
 .dropbtn {
-    background-color: #367248;
+    font: inherit;
+    background-color: #ebcc76;
     color: white;
     padding: 16px;
-    margin-bottom: 10px;
+    margin: 5px;
     font-size: 16px;
     border: none;
 }
@@ -101,7 +108,7 @@ ul {
 }
 
 .filterbtn {
-    background-color: #367248;
+    background-color: #ebcc76;
     color: white;
     padding: 16px;
     margin-top: 10px;
@@ -112,6 +119,21 @@ ul {
 .filterbtn:hover {
     cursor: pointer;
 }
+
+.spinner {
+    margin-left: 20px;
+    border: 8px solid #ffffff; /* Light grey */
+    border-top: 8px solid #ebcc76; /* Blue */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
 
 #clear {
     background-color: #3b3b3b;
@@ -186,12 +208,20 @@ h4 {
     text-align: center;
 }
 
-.more {
+.more-btn {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    align-items: center;
+    width: 100%;
+    font: inherit;
+    background-color: #f8f6f3;
+    color: rgb(48, 48, 48);
+    padding: 16px;
+    margin: 20px 0 10px 0;
     text-transform: uppercase;
+    font-size: 16px;
     font-weight: 600;
+    border: none;
     cursor: pointer;
 }
 /* @media screen and (min-width: 768px) {

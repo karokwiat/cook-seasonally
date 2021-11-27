@@ -4,7 +4,7 @@ export default () => {
   //global variable declaration to handle getting the last fetch object
   let latestFetchObject = "";
 
-  fetch("./pages/zucchini/zucchini.html")
+  fetch("./pages/brussels/brussels.html")
   .then((response) => response.text())
   .then((mainHtml) => {
     content.innerHTML = mainHtml;
