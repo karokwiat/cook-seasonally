@@ -3,7 +3,6 @@ import renderBrussels from "./pages/brussels/brussels.js";
 import renderPumpkin from "./pages/pumpkin/pumpkin.js";
 import renderZucchini from "./pages/zucchini/zucchini.js";
 
-
 export default function () {
   const router = new Navigo("/", { hash: true });
 
